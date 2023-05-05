@@ -1,4 +1,4 @@
-From a6ec9ec186effd367448deee6b4de3666965155d Mon Sep 17 00:00:00 2001
+From 61fd728728e348cbfced328b931c58ac53dc71e2 Mon Sep 17 00:00:00 2001
 From: Ryder Belserion <no-reply@ryderbelserion.com>
 Date: Fri, 31 Mar 2023 00:51:50 -0400
 Subject: [PATCH] Add gradle.properties
