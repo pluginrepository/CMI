@@ -1,0 +1,37 @@
+From d0252e034375bd9bf7b0b3eea45cf8c7bfcfb99c Mon Sep 17 00:00:00 2001
+From: Ryder Belserion <no-reply@ryderbelserion.com>
+Date: Fri, 5 May 2023 19:41:03 -0400
+Subject: [PATCH] Bump cmi-api
+
+---
+ build.gradle.kts  | 2 +-
+ gradle.properties | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/build.gradle.kts b/build.gradle.kts
+index b574743..d2caba9 100644
+--- a/build.gradle.kts
++++ b/build.gradle.kts
+@@ -22,7 +22,7 @@ repositories {
+ dependencies {
+     compileOnly("com.mojang:authlib:1.5.25")
+ 
+-    compileOnly("com.Zrips.CMI:CMI-API:9.3.1.2")
++    compileOnly("com.Zrips.CMI:CMI-API:9.5.0.8")
+ 
+     compileOnly("me.clip:placeholderapi:2.11.1")
+ 
+diff --git a/gradle.properties b/gradle.properties
+index 2bee097..42609e7 100644
+--- a/gradle.properties
++++ b/gradle.properties
+@@ -1,3 +1,3 @@
+ group = net.zrips.CMILib
+ name = CMI-Lib
+-version = 1.2.5.4
+\ No newline at end of file
++version = 1.2.5.5
+\ No newline at end of file
+-- 
+2.40.0.windows.1
+
